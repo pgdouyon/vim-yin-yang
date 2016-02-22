@@ -103,7 +103,7 @@ call s:hi('PreProc', s:palette.gray07, [], 'bold')
 
 call s:hi('Identifier', s:palette.gray05, [], 'none')
 call s:hi('Function', s:palette.gray05, [], '')
-call s:hi('Keyword', s:palette.gray06, [], '')
+call s:hi('Keyword', s:palette.gray05, [], '')
 call s:hi('Operator', s:palette.gray13, [], 'none')
 call s:hi('MatchParen', s:palette.magenta, s:palette.black, '')
 
