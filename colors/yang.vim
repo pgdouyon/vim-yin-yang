@@ -1,6 +1,6 @@
 " YinYang - black/white color scheme
 
-if (&background ==# "dark" && g:colors_name ==# "yang")
+if (&background ==# "dark" && get(g:, "colors_name", "") ==# "yang")
     colorscheme yin
     finish
 endif
