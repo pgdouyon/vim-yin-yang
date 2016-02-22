@@ -1,7 +1,7 @@
 " YinYang - black/white color scheme
 
 if (&background ==# "light" && get(g:, "colors_name", "") ==# "yin")
-    colorscheme yang
+    runtime! colors/yang.vim
     finish
 endif
 
@@ -61,6 +61,7 @@ endfunction
 
 
 call s:hi('Normal', s:palette.gray11, s:palette.black, '')
+set background=dark
 
 call s:hi('String', s:palette.gray07, [], '')
 call s:hi('SpecialChar', s:palette.gray04, [], '')
