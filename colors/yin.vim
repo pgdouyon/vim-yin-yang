@@ -138,6 +138,9 @@ call s:hi('DiffAdd', s:palette.black, s:palette.green, '')
 call s:hi('DiffChange', s:palette.black, s:palette.blue, '')
 call s:hi('DiffDelete', s:palette.black, s:palette.red, '')
 call s:hi('DiffText', s:palette.blue, s:palette.black, 'underline')
+call s:hi('DiffAdded', s:palette.green, s:palette.black, '')
+call s:hi('DiffChanged', s:palette.blue, s:palette.black, '')
+call s:hi('DiffRemoved', s:palette.red, s:palette.black, '')
 
 
 highlight! link Float Number
@@ -161,11 +164,6 @@ highlight! link Delimiter Special
 highlight! link TabLine StatusLineNC
 highlight! link TabLineFill StatusLineNC
 highlight! link TabLineSel StatusLine
-
-highlight! link DiffAdded DiffAdd
-highlight! link DiffChanged DiffChange
-highlight! link DiffRemoved DiffDelete
-
 
 " RAINBOW PARENTHESES
 let g:rbpt_colorpairs = [
