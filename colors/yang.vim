@@ -83,7 +83,7 @@ call s:hi('CursorLineNr', s:palette.gray07, s:palette.gray14, '')
 
 call s:hi('Visual', [], s:palette.visual, '')
 call s:hi('VisualNOS', s:palette.gray07, [], '')
-call s:hi('Search', s:palette.gray14, s:palette.gray10, 'none')
+call s:hi('Search', s:palette.gray14, s:palette.gray07, 'none')
 call s:hi('IncSearch', s:palette.pink, s:palette.white, 'bold')
 
 call s:hi('SpellBad', s:palette.red, s:palette.white, 'undercurl')
@@ -109,9 +109,9 @@ call s:hi('Keyword', s:palette.gray06, [], '')
 call s:hi('Operator', s:palette.black, [], 'none')
 call s:hi('MatchParen', s:palette.magenta, s:palette.white, '')
 
-call s:hi('Type', s:palette.gray02, [], 'none')
-call s:hi('Typedef', s:palette.gray02, [], 'bold')
-call s:hi('StorageClass', s:palette.gray02, [], '')
+call s:hi('Type', s:palette.gray01, [], 'none')
+call s:hi('Typedef', s:palette.gray01, [], 'bold')
+call s:hi('StorageClass', s:palette.gray01, [], '')
 call s:hi('Structure', s:palette.gray01, [], 'bold')
 
 call s:hi('Conditional', s:palette.gray08, [], 'bold')
