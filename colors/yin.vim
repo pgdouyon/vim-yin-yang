@@ -31,7 +31,9 @@ let s:palette.gray12 = [249, '#ababab']
 let s:palette.gray13 = [250, '#b9b9b9']
 let s:palette.gray14 = [254, '#e3e3e3']
 let s:palette.white = [255, '#f7f7f7']
+
 let s:palette.comments = [237, '#343434']
+let s:palette.visual = [235, '#282828']
 
 let s:palette.cyan = [30, '#008080']
 let s:palette.purple = [62, '#5f5fd7']
@@ -80,7 +82,7 @@ call s:hi('FoldColumn', [], s:palette.gray01, '')
 call s:hi('CursorLine', [], s:palette.gray01, 'none')
 call s:hi('CursorLineNr', s:palette.gray07, s:palette.gray01, '')
 
-call s:hi('Visual', [], s:palette.gray01, '')
+call s:hi('Visual', [], s:palette.visual, '')
 call s:hi('VisualNOS', s:palette.gray07, [], '')
 call s:hi('Search', s:palette.gray01, s:palette.gray10, 'none')
 call s:hi('IncSearch', s:palette.pink, s:palette.black, 'bold')
