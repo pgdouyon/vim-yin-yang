@@ -37,6 +37,7 @@ let s:palette.cyan = [30, '#008080']
 let s:palette.purple = [62, '#5f5fd7']
 let s:palette.brown = [94, '#875f00']
 let s:palette.blue = [24, '#005faf']
+let s:palette.lightblue = [38, '#005faf']
 let s:palette.green = [29, '#00875f']
 let s:palette.red = [88, '#870000']
 let s:palette.pink = [171, '#870000']
@@ -137,7 +138,7 @@ call s:hi('VertSplit', s:palette.gray02, s:palette.gray02, 'none')
 call s:hi('DiffAdd', s:palette.black, s:palette.green, '')
 call s:hi('DiffChange', s:palette.black, s:palette.blue, '')
 call s:hi('DiffDelete', s:palette.black, s:palette.red, '')
-call s:hi('DiffText', s:palette.blue, s:palette.black, 'underline')
+call s:hi('DiffText', s:palette.black, s:palette.lightblue, '')
 call s:hi('DiffAdded', s:palette.green, s:palette.black, '')
 call s:hi('DiffChanged', s:palette.blue, s:palette.black, '')
 call s:hi('DiffRemoved', s:palette.red, s:palette.black, '')
@@ -171,8 +172,9 @@ let g:rbpt_colorpairs = [
             \ s:palette.gray04,
             \ s:palette.purple,
             \ s:palette.green,
-            \ s:palette.blue,
+            \ s:palette.lightblue,
             \ s:palette.red,
             \ s:palette.pink,
+            \ s:palette.blue,
             \ s:palette.brown,
             \ ]
