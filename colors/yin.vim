@@ -15,25 +15,25 @@ let g:colors_name = "yin"
 
 let s:palette = {}
 
-let s:palette.black = [233, '#101010']
-let s:palette.gray01 = [234, '#1c1c1c']
-let s:palette.gray02 = [237, '#383838']
-let s:palette.gray03 = [238, '#464646']
-let s:palette.gray04 = [239, '#525252']
-let s:palette.gray05 = [241, '#5e5e5e']
-let s:palette.gray06 = [242, '#686868']
-let s:palette.gray07 = [243, '#747474']
-let s:palette.gray08 = [244, '#7c7c7c']
-let s:palette.gray09 = [245, '#868686']
-let s:palette.gray10 = [246, '#8e8e8e']
-let s:palette.gray11 = [247, '#999999']
-let s:palette.gray12 = [248, '#a0a0a0']
-let s:palette.gray13 = [249, '#ababab']
-let s:palette.gray14 = [250, '#b9b9b9']
+let s:palette.black = [234, '#1c1c1c']
+let s:palette.gray01 = [235, '#262626']
+let s:palette.gray02 = [238, '#464646']
+let s:palette.gray03 = [239, '#525252']
+let s:palette.gray04 = [240, '#5e5e5e']
+let s:palette.gray05 = [242, '#686868']
+let s:palette.gray06 = [243, '#747474']
+let s:palette.gray07 = [244, '#7c7c7c']
+let s:palette.gray08 = [245, '#868686']
+let s:palette.gray09 = [246, '#8e8e8e']
+let s:palette.gray10 = [247, '#999999']
+let s:palette.gray11 = [248, '#a0a0a0']
+let s:palette.gray12 = [249, '#ababab']
+let s:palette.gray13 = [250, '#b9b9b9']
+let s:palette.gray14 = [251, '#c3c3c3']
 let s:palette.gray15 = [254, '#e3e3e3']
 let s:palette.white = [255, '#f7f7f7']
 
-let s:palette.comments = [236, '#343434']
+let s:palette.comments = [237, '#383838']
 
 let s:palette.purple = [62, '#5f5fd7']
 let s:palette.brown = [94, '#875f00']
@@ -71,7 +71,7 @@ call s:hi('Number', s:palette.gray04, [], '')
 call s:hi('Identifier', s:palette.gray06, [], 'none')
 call s:hi('Function', s:palette.gray06, [], '')
 
-call s:hi('Statement', s:palette.gray02, [], 'bold')
+call s:hi('Statement', s:palette.gray03, [], 'bold')
 call s:hi('Operator', s:palette.gray04, [], 'none')
 call s:hi('Keyword', s:palette.gray03, [], '')
 
