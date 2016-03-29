@@ -61,15 +61,15 @@ function! s:hi(group, fg_color, bg_color, style)
 endfunction
 
 
-call s:hi('Normal', s:palette.gray10, s:palette.black, '')
+call s:hi('Normal', s:palette.gray11, s:palette.black, '')
 set background=dark
 
 call s:hi('Constant', s:palette.gray04, [], 'bold')
-call s:hi('String', s:palette.gray08, [], '')
+call s:hi('String', s:palette.gray09, [], '')
 call s:hi('Number', s:palette.gray04, [], '')
 
-call s:hi('Identifier', s:palette.gray06, [], 'none')
-call s:hi('Function', s:palette.gray06, [], '')
+call s:hi('Identifier', s:palette.gray07, [], 'none')
+call s:hi('Function', s:palette.gray07, [], '')
 
 call s:hi('Statement', s:palette.gray03, [], 'bold')
 call s:hi('Operator', s:palette.gray04, [], 'none')
