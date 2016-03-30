@@ -85,7 +85,7 @@ call s:hi('Comment', s:palette.gray12, [], '')
 call s:hi('Todo', s:palette.purple, s:palette.white, '')
 
 call s:hi('LineNr', s:palette.gray13, s:palette.gray15, 'none')
-call s:hi('FoldColumn', [], s:palette.gray15, 'none')
+call s:hi('FoldColumn', s:palette.gray08, s:palette.gray15, 'none')
 call s:hi('CursorLine', [], s:palette.gray15, 'none')
 call s:hi('CursorLineNr', s:palette.gray06, s:palette.gray15, 'none')
 
