@@ -62,22 +62,22 @@ endfunction
 call s:hi('Normal', s:palette.gray05, s:palette.white, '')
 set background=light
 
-call s:hi('Constant', s:palette.gray12, [], 'bold')
+call s:hi('Constant', s:palette.gray11, [], 'bold')
 call s:hi('String', s:palette.gray08, [], '')
-call s:hi('Number', s:palette.gray12, [], '')
+call s:hi('Number', s:palette.gray10, [], '')
 
-call s:hi('Identifier', s:palette.gray10, [], 'none')
-call s:hi('Function', s:palette.gray10, [], '')
+call s:hi('Identifier', s:palette.gray06, [], 'none')
+call s:hi('Function', s:palette.gray06, [], '')
 
-call s:hi('Statement', s:palette.gray09, [], 'bold')
+call s:hi('Statement', s:palette.gray08, [], 'bold')
 call s:hi('Operator', s:palette.gray03, [], 'none')
-call s:hi('Keyword', s:palette.gray11, [], '')
+call s:hi('Keyword', s:palette.gray10, [], '')
 
 call s:hi('PreProc', s:palette.gray10, [], 'none')
 
-call s:hi('Type', s:palette.gray07, [], 'none')
+call s:hi('Type', s:palette.gray06, [], 'none')
 
-call s:hi('Special', s:palette.gray11, [], '')
+call s:hi('Special', s:palette.gray10, [], '')
 call s:hi('SpecialComment', s:palette.gray12, [], 'bold')
 
 call s:hi('Title', s:palette.gray10, [], 'bold')
