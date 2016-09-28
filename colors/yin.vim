@@ -33,7 +33,7 @@ let s:palette.gray14 = [251, '#c3c3c3']
 let s:palette.gray15 = [254, '#e3e3e3']
 let s:palette.white = [255, '#f7f7f7']
 
-let s:palette.comments = [237, '#383838']
+let s:palette.comments = [238, '#464646']
 
 let s:palette.purple = [62, '#5f5fd7']
 let s:palette.brown = [94, '#875f00']
@@ -61,7 +61,7 @@ function! s:hi(group, fg_color, bg_color, style)
 endfunction
 
 
-call s:hi('Normal', s:palette.gray11, s:palette.black, '')
+call s:hi('Normal', s:palette.gray12, s:palette.black, '')
 set background=dark
 
 call s:hi('Constant', s:palette.gray04, [], 'bold')
@@ -83,7 +83,7 @@ call s:hi('Special', s:palette.gray05, [], '')
 call s:hi('SpecialComment', s:palette.comments, [], 'bold')
 
 call s:hi('Title', s:palette.gray06, [], 'bold')
-call s:hi('Comment', s:palette.comments, [], '')
+call s:hi('Comment', s:palette.comments, [], 'italic')
 call s:hi('Todo', s:palette.purple, s:palette.black, '')
 
 call s:hi('LineNr', s:palette.gray04, s:palette.gray01, 'none')
@@ -91,7 +91,7 @@ call s:hi('FoldColumn', s:palette.gray07, s:palette.gray01, 'none')
 call s:hi('CursorLine', [], s:palette.gray01, 'none')
 call s:hi('CursorLineNr', s:palette.gray14, s:palette.gray01, 'none')
 
-call s:hi('Visual', s:palette.black, s:palette.gray05, '')
+call s:hi('Visual', s:palette.black, s:palette.gray06, '')
 call s:hi('VisualNOS', s:palette.gray08, [], '')
 call s:hi('Search', s:palette.gray01, s:palette.gray11, 'none')
 call s:hi('IncSearch', s:palette.black, s:palette.gray07, 'bold')
