@@ -41,6 +41,24 @@ let s:palette.green = [65, '#00875f']
 let s:palette.red = [88, '#870000']
 let s:palette.magenta = [125, '#87005f']
 
+if has("nvim") && (has("gui_running") || &termguicolors)
+    let g:terminal_color_0 = s:palette.gray01[1]
+    let g:terminal_color_1 = s:palette.gray06[1]
+    let g:terminal_color_2 = s:palette.gray03[1]
+    let g:terminal_color_3 = s:palette.gray11[1]
+    let g:terminal_color_4 = s:palette.gray02[1]
+    let g:terminal_color_5 = s:palette.gray08[1]
+    let g:terminal_color_6 = s:palette.gray09[1]
+    let g:terminal_color_7 = s:palette.gray13[1]
+    let g:terminal_color_8 = s:palette.gray03[1]
+    let g:terminal_color_9 = s:palette.gray10[1]
+    let g:terminal_color_10 = s:palette.gray07[1]
+    let g:terminal_color_11 = s:palette.gray13[1]
+    let g:terminal_color_12 = s:palette.gray05[1]
+    let g:terminal_color_13 = s:palette.gray12[1]
+    let g:terminal_color_14 = s:palette.gray14[1]
+    let g:terminal_color_15 = s:palette.white[1]
+endif
 
 function! s:hi(group, fg_color, bg_color, style)
     let highlight_command = ['hi', a:group]
