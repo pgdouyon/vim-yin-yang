@@ -83,8 +83,12 @@ call s:hi('Special', s:palette.gray05, [], '')
 call s:hi('SpecialComment', s:palette.comments, [], 'bold')
 
 call s:hi('Title', s:palette.gray06, [], 'bold')
-call s:hi('Comment', s:palette.comments, [], 'italic')
 call s:hi('Todo', s:palette.purple, s:palette.black, '')
+if has("nvim") || has("gui_running")
+    call s:hi('Comment', s:palette.comments, [], 'italic')
+else
+    call s:hi('Comment', s:palette.comments, [], '')
+endif
 
 call s:hi('LineNr', s:palette.gray04, s:palette.gray01, 'none')
 call s:hi('FoldColumn', s:palette.gray07, s:palette.gray01, 'none')
