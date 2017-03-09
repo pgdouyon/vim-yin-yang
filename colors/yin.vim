@@ -79,28 +79,28 @@ function! s:hi(group, fg_color, bg_color, style)
 endfunction
 
 
-call s:hi('Normal', s:palette.gray12, s:palette.black, '')
+call s:hi('Normal', s:palette.gray13, s:palette.black, '')
 set background=dark
 
-call s:hi('Constant', s:palette.gray04, [], 'bold')
-call s:hi('String', s:palette.gray09, [], '')
-call s:hi('Number', s:palette.gray04, [], '')
+call s:hi('Constant', s:palette.gray05, [], 'bold')
+call s:hi('String', s:palette.gray10, [], '')
+call s:hi('Number', s:palette.gray05, [], '')
 
-call s:hi('Identifier', s:palette.gray07, [], 'none')
-call s:hi('Function', s:palette.gray07, [], '')
+call s:hi('Identifier', s:palette.gray08, [], 'none')
+call s:hi('Function', s:palette.gray08, [], '')
 
-call s:hi('Statement', s:palette.gray03, [], 'bold')
-call s:hi('Operator', s:palette.gray04, [], 'none')
-call s:hi('Keyword', s:palette.gray03, [], '')
+call s:hi('Statement', s:palette.gray04, [], 'bold')
+call s:hi('Operator', s:palette.gray05, [], 'none')
+call s:hi('Keyword', s:palette.gray04, [], '')
 
-call s:hi('PreProc', s:palette.gray06, [], 'none')
+call s:hi('PreProc', s:palette.gray07, [], 'none')
 
 call s:hi('Type', s:palette.gray05, [], '')
 
 call s:hi('Special', s:palette.gray05, [], '')
 call s:hi('SpecialComment', s:palette.comments, [], 'bold')
 
-call s:hi('Title', s:palette.gray06, [], 'bold')
+call s:hi('Title', s:palette.gray07, [], 'bold')
 call s:hi('Todo', s:palette.purple, s:palette.black, '')
 if has("nvim") || has("gui_running")
     call s:hi('Comment', s:palette.comments, [], 'italic')
