@@ -15,6 +15,7 @@ let g:colors_name = "yin"
 
 let s:palette = {}
 
+let s:palette.blackest = [232, '#080808']
 let s:palette.black = [234, '#1c1c1c']
 let s:palette.gray01 = [235, '#262626']
 let s:palette.gray02 = [238, '#444444']
@@ -38,7 +39,7 @@ let s:palette.comments = copy(s:palette.gray03)
 let s:palette.purple = [62, '#5f5fd7']
 let s:palette.brown = [94, '#875f00']
 let s:palette.blue = [24, '#005f87']
-let s:palette.lightblue = [38, '#00afd7']
+let s:palette.lightblue = [31, '#00afff']
 let s:palette.green = [29, '#00875f']
 let s:palette.red = [88, '#870000']
 let s:palette.magenta = [89, '#87005f']
@@ -146,9 +147,9 @@ call s:hi('StatusLineNC', s:palette.gray04, s:palette.gray01, 'none')
 call s:hi('WildMenu', s:palette.gray08, [], '')
 call s:hi('VertSplit', s:palette.gray03, s:palette.gray03, 'none')
 
-call s:hi('DiffAdd', s:palette.black, s:palette.green, '')
-call s:hi('DiffChange', s:palette.black, s:palette.blue, '')
-call s:hi('DiffDelete', s:palette.black, s:palette.red, '')
+call s:hi('DiffAdd', s:palette.blackest, s:palette.green, '')
+call s:hi('DiffChange', s:palette.blackest, s:palette.blue, '')
+call s:hi('DiffDelete', s:palette.blackest, s:palette.red, '')
 call s:hi('DiffText', s:palette.black, s:palette.lightblue, '')
 call s:hi('DiffAdded', s:palette.green, s:palette.black, '')
 call s:hi('DiffChanged', s:palette.blue, s:palette.black, '')
