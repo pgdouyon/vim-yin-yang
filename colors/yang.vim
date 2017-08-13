@@ -93,7 +93,7 @@ call s:hi('Keyword', s:palette.gray10, [], '')
 
 call s:hi('PreProc', s:palette.gray10, [], 'none')
 
-call s:hi('Type', s:palette.gray06, [], 'none')
+call s:hi('Type', s:palette.gray09, [], 'bold')
 
 call s:hi('Special', s:palette.gray10, [], '')
 call s:hi('SpecialComment', s:palette.gray12, [], 'bold')
