@@ -85,14 +85,14 @@ set background=dark
 
 call s:hi('Constant', s:palette.gray05, [], 'bold')
 call s:hi('String', s:palette.gray10, [], '')
-call s:hi('Number', s:palette.gray05, [], '')
+call s:hi('Number', s:palette.gray06, [], '')
 
 call s:hi('Identifier', s:palette.gray08, [], 'none')
 call s:hi('Function', s:palette.gray08, [], '')
 
-call s:hi('Statement', s:palette.gray04, [], 'bold')
+call s:hi('Statement', s:palette.gray05, [], 'bold')
 call s:hi('Operator', s:palette.gray05, [], 'none')
-call s:hi('Keyword', s:palette.gray04, [], '')
+call s:hi('Keyword', s:palette.gray05, [], '')
 
 call s:hi('PreProc', s:palette.gray07, [], 'none')
 
