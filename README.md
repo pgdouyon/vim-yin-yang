@@ -12,8 +12,12 @@ Vim Colors Screenshots
 ----------------------
 
 * Dark theme - [Yin](http://vimcolors.com/917/yin/dark)
-* Light theme - [Yang ](http://vimcolors.com/918/yang/light)
+* Light theme - [Yang](http://vimcolors.com/918/yang/light)
 
+Alternate Implementations
+-------------------------
+
+* Terminal - [iTerm2, Terminal.app](https://github.com/pgdouyon/yin-yang)
 
 License
 -------
