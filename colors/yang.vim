@@ -203,6 +203,7 @@ highlight! link Tag Special
 highlight! link Delimiter Special
 highlight! link Debug Special
 highlight! link Question Special
+highlight! link FloatBorder Special
 
 highlight! link VisualNOS Visual
 highlight! link TabLine StatusLineNC
